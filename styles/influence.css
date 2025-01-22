@@ -106,12 +106,12 @@
   }
 
 .div-6{
-    padding: 34px 62px;
+    padding: 34px 50px;
     box-shadow: 0px 0px 50px 1px darkgray;
     border-radius: 20px;
     display: flex;
-    gap: 60px;
     margin-bottom: 100px;
+    justify-content: space-evenly;
 }
 
 .hambarger > div{
@@ -210,6 +210,20 @@
     margin-bottom: 100px;
 }
 
+.sec-4{
+    text-align: center;
+    background-color: rgba(10, 8, 38, 0.89);
+    color: white;
+    padding: 10px 10px;
+}
+
+.logoo{
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+}
+
+
 
 
 
@@ -274,7 +288,7 @@
         flex-wrap: wrap;
         justify-content: center;
         gap: 30px;
-        padding: 5px 0px;
+        padding: 10px 0px;
     }
 
     .body{
@@ -298,6 +312,11 @@
 
     .button-2{
         margin-bottom: 10px;
+    }
+
+    .sec-4{
+        padding: 10px 10px;
+        text-align: center;
     }
 
 }
