@@ -82,6 +82,11 @@
     font-weight: 600;
   }
 
+  .see{
+    text-align: right;
+    margin-bottom: 50px;
+  }
+
   .image-1{
     background-image: url(../images/Circle\ design.svg);
     background-size: contain;
@@ -102,14 +107,78 @@
 
 .hambarger > div{
     background-color: black;
-    width: 20px;
-    height: 2px;
+    width: 25px;
+    height: 3px;
     margin: 3px 2px;
 }
 
 .hambarger{
     display: none;
 }
+
+/*  */
+
+.column-section{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+    text-align: center;
+
+}
+
+.rating-logo{
+    width: 60px;
+    height: 60px;
+    margin-top: -10px;
+}
+
+.column-img{
+    width: 100%;
+}
+
+.cart-div{
+    max-width: 100%;
+    box-shadow: 0px 0px 50px 1px darkgray;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 17px 15px;
+}
+
+.align{
+    text-align: left;
+}
+
+.bt{
+    margin-top: -20px;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #787885;
+}
+
+.font-3{
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.font-4{
+    font-size: 1.75rem;
+    font-weight: 400;
+    margin-bottom: 3px;
+}
+
+.font-5{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #787885;
+    margin-bottom: 5px;
+}
+.head{
+    text-align: center;
+}
+
+
+
 
 
 
