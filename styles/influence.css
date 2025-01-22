@@ -254,5 +254,8 @@
         max-width:100%;
     }
 
+    .column-section{
+        flex-direction: column;
+    }
 
 }
