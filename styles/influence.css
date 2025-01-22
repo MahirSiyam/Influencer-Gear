@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+IN:wght@100..400&display=swap');
+.playwrite-in-normal {
+    font-family: "Playwrite IN", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+  .body{
+    max-width: 1152px;
+    margin: 0px auto;
+}
+
+  .div-1{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .div-2{
+    display: flex;
+    justify-content: space-between;
+    gap: 34px;
+  }
+  .div-3{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .div-4{
+    margin-top: 70px;
+  }
+
+  .div-5{
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+
+  .font{
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .font-1{
+    font-size: 3.25rem;
+    font-weight: bold;
+  }
+  .font-2{
+    font-size: 1rem;
+    font-weight: 600;
+    width: 505px;
+    margin-bottom: 20px;
+  }
+
+  .ul{
+    list-style: none;
+  }
+
+  .list{
+    text-decoration: none;
+  }
+
+  .icon-1{
+    width: 19px;
+    height: 19px;
+  }
+  .icon-2{
+    width: 24px;
+    height: 24px;
+  }
+  .icon-3{
+    width: 16px;
+    height: 14px;
+  }
+
+  .button{
+    padding: 10px 24px;
+    border: none;
+    border-radius: 41px;
+    background-color: #E02C6D;
+  }
+
+  .image-1{
+    background-image: url(../images/Circle\ design.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+  }
+
+.div-6{
+    padding: 34px 62px;
+    box-shadow: 0px 0px 50px 1px darkgray;
+    border-radius: 20px;
+    display: flex;
+    gap: 60px;
+    margin-bottom: 100px;
+}
