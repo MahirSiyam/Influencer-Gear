@@ -82,6 +82,15 @@
     font-weight: 600;
   }
 
+  .button-2{
+    padding: 10px 24px;
+    border: none;
+    border-radius: 41px;
+    background-color: #E02C6D;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
   .see{
     text-align: right;
     margin-bottom: 50px;
@@ -177,6 +186,30 @@
     text-align: center;
 }
 
+.flex{
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+}
+
+.font-6{
+    font-size: 2.37rem;
+    font-weight: bold;
+    margin-top: 12px;
+    margin-bottom: 10px;
+}
+
+.font-7{
+    font-size: 1rem;
+    font-weight: bold;
+    color: #6C6C6C;
+    margin-bottom: 40px;
+}
+
+.sec-3{
+    margin-bottom: 100px;
+}
+
 
 
 
@@ -222,7 +255,7 @@
 
 
     .button{
-        margin-bottom: 50px;
+        margin-bottom: 40px;
     }
 
     .div-5{
@@ -256,6 +289,15 @@
 
     .column-section{
         flex-direction: column;
+    }
+
+    .flex{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .button-2{
+        margin-bottom: 10px;
     }
 
 }
